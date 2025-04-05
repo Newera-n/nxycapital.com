@@ -21,6 +21,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+    text-align: center;
 }
 
 nav {
@@ -59,6 +60,7 @@ main {
     min-height: calc(100vh - 200px);
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 h1 {
@@ -71,6 +73,7 @@ h1 {
 .contact-info {
     font-size: 18px;
     line-height: 1.8;
+    text-align: center;
 }
 
 .contact-info a {
@@ -87,6 +90,10 @@ footer {
     padding: 40px 0;
     background-color: var(--background-color);
     border-top: 1px solid #eee;
+}
+
+footer .container {
+    text-align: center;
 }
 
 footer p {
