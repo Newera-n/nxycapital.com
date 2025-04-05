@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NXY Capital</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="logo">NXY Capital</div>
+            <div class="menu-toggle">☰</div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h1>NXY Capital</h1>
+            <div class="contact-info">
+                <p>3047 Fillmore St</p>
+                <p>San Francisco, CA 94123</p>
+                <p><a href="mailto:info@nxycapital.com">info@nxycapital.com</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 NXY Capital LLC | All Rights Reserved</p>
+            <p><a href="/privacy">Privacy Policy</a></p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
